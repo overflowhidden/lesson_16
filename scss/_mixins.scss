@@ -1,0 +1,11 @@
+@mixin btn($bg, $color, $radius, $fs) {
+  color: $color;
+  font-size: $fs;
+  background: $bg;
+  border-radius: $radius;
+  padding: 10px;
+}
+
+@mixin mainBlock($border-color) {
+  border-color: $border-color;
+}
